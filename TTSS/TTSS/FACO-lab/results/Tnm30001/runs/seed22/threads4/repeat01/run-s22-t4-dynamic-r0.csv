@@ -1,2 +1,2 @@
 instance,dimension,ants,iterations,seed,threads,schedule,preprocessing_seconds,initialization_seconds,search_seconds,total_seconds,best_length,reference_length,error_percent
-"Tnm30001.tsp",30001,32,40,22,4,dynamic,1.1788993839999999,0.0071304710000000002,4.5424549379999997,5.7284852529999997,587617210,,
+"Tnm30001.tsp",30001,128,200,22,4,dynamic,1.1057141239999999,189.94442259300001,221.83251462199999,412.88265190800001,566978141,,

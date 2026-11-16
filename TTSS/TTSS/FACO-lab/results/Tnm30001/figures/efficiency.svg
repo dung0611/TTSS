@@ -28,11 +28,11 @@
 <polyline points="1460.0,875 1460.0,883" fill="none" stroke="#333333" stroke-width="2"/>
 <text x="1460.0" y="911" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">8</text>
 <polyline points="180,220.4545454545455 1460,220.4545454545455" fill="none" stroke="#777777" stroke-width="3" stroke-dasharray="12 12"/>
-<polyline points="180.0,220.4545454545455 606.6666666666667,338.0565480838858 1033.3333333333335,593.4269978614248 1460.0,728.5999957473889" fill="none" stroke="#2a9d8f" stroke-width="4"/>
+<polyline points="180.0,220.4545454545455 606.6666666666667,285.1076815701131 1033.3333333333335,520.5701625220627 1460.0,697.4849710631837" fill="none" stroke="#2a9d8f" stroke-width="4"/>
 <circle cx="180.0" cy="220.4545454545455" r="9" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
-<circle cx="606.6666666666667" cy="338.0565480838858" r="9" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
-<circle cx="1033.3333333333335" cy="593.4269978614248" r="9" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
-<circle cx="1460.0" cy="728.5999957473889" r="9" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
+<circle cx="606.6666666666667" cy="285.1076815701131" r="9" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
+<circle cx="1033.3333333333335" cy="520.5701625220627" r="9" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
+<circle cx="1460.0" cy="697.4849710631837" r="9" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
 <polyline points="220,1052 262,1052" fill="none" stroke="#2a9d8f" stroke-width="4"/>
 <circle cx="241" cy="1052" r="7" fill="#2a9d8f" stroke="#2a9d8f" stroke-width="2"/>
 <text x="272" y="1058" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">Search efficiency</text>

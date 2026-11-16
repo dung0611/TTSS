@@ -1,5 +1,5 @@
 {
-  "created_local": "2026-11-14T17:25:02+07:00",
+  "created_local": "2026-11-15T08:50:33+07:00",
   "output_directory": "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/results/Tnm30001",
   "operating_system": {
     "name": "Ubuntu 24.04.5 LTS",
@@ -35,11 +35,11 @@
     33
   ],
   "workload": {
-    "ants": 32,
-    "iterations": 40,
-    "initial_solutions": 1,
+    "ants": 128,
+    "iterations": 200,
+    "initial_solutions": 4,
     "schedule": "dynamic",
-    "local_search": false,
+    "local_search": true,
     "candidate_size": 16,
     "backup_size": 64,
     "min_new_edges": 8,
@@ -54,7 +54,7 @@
     "profile": false
   },
   "warmups_per_thread_count": 1,
-  "measurement_repeats_per_seed_thread": 3,
+  "measurement_repeats_per_seed_thread": 5,
   "timing_policy": "Sequential executions; one excluded warm-up for each requested thread count; 5 measured repetitions per seed and thread count; run order rotates by repeat and seed.",
   "speedup_policy": "For each seed, take the median of repeated timings at each requested setting, divide the OpenMP 1-thread median by that paired setting median, then take the median of those per-seed ratios. Efficiency divides by the median actual OpenMP team size; it is not CPU utilization.",
   "actual_threads_by_requested": {

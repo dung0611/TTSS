@@ -3,15 +3,15 @@
   "--input",
   "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/data/Tnm30001.tsp",
   "--ants",
-  "32",
+  "128",
   "--iterations",
-  "40",
+  "200",
   "--initial-solutions",
-  "1",
+  "4",
   "--schedule",
   "dynamic",
   "--local-search",
-  "off",
+  "on",
   "--candidate-size",
   "16",
   "--backup-size",
@@ -41,5 +41,5 @@
   "--seed",
   "22",
   "--output-dir",
-  "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/results/Tnm30001/runs/seed22/threads1/repeat02"
+  "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/results/Tnm30001-20261115-085033/runs/seed22/threads1/repeat02"
 ]

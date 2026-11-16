@@ -1,2 +1,2 @@
 instance,dimension,ants,iterations,seed,threads,schedule,preprocessing_seconds,initialization_seconds,search_seconds,total_seconds,best_length,reference_length,error_percent
-"d15112",15112,128,200,11,1,dynamic,0.697716954,295.11676752900001,171.44409871100001,467.25858371999999,1619690,,
+"d15112",15112,128,200,11,1,dynamic,0.76390518500000004,267.454475462,154.671883001,422.89026432999998,1619690,,

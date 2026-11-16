@@ -26,16 +26,16 @@
 <polyline points="1460.0,875 1460.0,883" fill="none" stroke="#333333" stroke-width="2"/>
 <text x="1460.0" y="911" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">8</text>
 <polyline points="180.0,795.0 606.6666666666667,715.0 1033.3333333333335,555.0 1460.0,235.0" fill="none" stroke="#777777" stroke-width="3" stroke-dasharray="12 12"/>
-<polyline points="168.0,795.0 594.6666666666667,743.7471561982832 1021.3333333333335,737.3420878433633 1448.0,731.8533291752246" fill="none" stroke="#1769aa" stroke-width="4"/>
+<polyline points="168.0,795.0 594.6666666666667,730.804099939361 1021.3333333333335,701.7231905663417 1448.0,701.4297494840018" fill="none" stroke="#1769aa" stroke-width="4"/>
 <circle cx="168.0" cy="795.0" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
-<circle cx="594.6666666666667" cy="743.7471561982832" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
-<circle cx="1021.3333333333335" cy="737.3420878433633" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
-<circle cx="1448.0" cy="731.8533291752246" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
-<polyline points="192.0,795.0 618.6666666666667,751.1316021044352 1045.3333333333335,748.8097085487942 1472.0,744.9494598157355" fill="none" stroke="#d1495b" stroke-width="4"/>
+<circle cx="594.6666666666667" cy="730.804099939361" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<circle cx="1021.3333333333335" cy="701.7231905663417" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<circle cx="1448.0" cy="701.4297494840018" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<polyline points="192.0,795.0 618.6666666666667,766.5489726679112 1045.3333333333335,757.445454762339 1472.0,759.8322843173279" fill="none" stroke="#d1495b" stroke-width="4"/>
 <circle cx="192.0" cy="795.0" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
-<circle cx="618.6666666666667" cy="751.1316021044352" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
-<circle cx="1045.3333333333335" cy="748.8097085487942" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
-<circle cx="1472.0" cy="744.9494598157355" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<circle cx="618.6666666666667" cy="766.5489726679112" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<circle cx="1045.3333333333335" cy="757.445454762339" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<circle cx="1472.0" cy="759.8322843173279" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
 <polyline points="220,1052 262,1052" fill="none" stroke="#1769aa" stroke-width="4"/>
 <circle cx="241" cy="1052" r="7" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
 <text x="272" y="1058" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">Tìm kiếm</text>

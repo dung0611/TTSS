@@ -90,7 +90,7 @@ ctest --test-dir build-asan --output-on-failure
 
 Chỉ chọn 6 luồng nếu phần cứng cho phép. Dữ liệu `uniform2048` được sinh bằng script gốc, seed 2026, chưa biết tối ưu. Hai instance `d15112.tsp` và `Tnm30001.tsp` lấy từ repository FocusedACO; xem nguồn trong `data/SOURCES.md`. Có thể tái sinh bằng `python3 scripts/generate_data.py --output data/uniform2048.tsp --dimension 2048 --seed 2026`.
 
-Kết quả benchmark đủ 1/2/4/8 luồng cho hai instance lớn được lưu tại [d15112](results/d15112/report.md) và [Tnm30001](results/Tnm30001/report.md), kèm raw/summary CSV, metadata, tour/lịch sử từng lần đo và bốn biểu đồ PNG/SVG. Do workload 128 kiến × 200 vòng cùng local search của benchmark 2048 mất nhiều phút mỗi lượt ở các instance này, hai benchmark lớn dùng workload nhẹ hơn: 32 kiến, 40 vòng, 1 nghiệm khởi tạo, local search tắt; mỗi seed có 3 lần đo và 3 seed (11/22/33). Mọi mức luồng dùng cùng workload, và kết quả đã qua kiểm chứng độc lập. Không so sánh trực tiếp thời gian/chất lượng giữa các instance với cấu hình khác nhau.
+Kết quả benchmark OpenMP đủ 1/2/4/8 luồng cho ba instance được lưu tại [uniform2048](results/uniform2048/report.md), [d15112](results/d15112/report.md) và [Tnm30001](results/Tnm30001/report.md), kèm raw/summary CSV, metadata, tour/lịch sử từng lần đo và bốn biểu đồ PNG/SVG. Cả ba đợt dùng 128 kiến, 200 vòng, 4 nghiệm khởi tạo, local search bật; mỗi seed có 5 lần đo và 3 seed (11/22/33). Mọi mức luồng của mỗi instance dùng cùng workload. Dữ liệu cũ với workload giảm được giữ riêng trong `results/archive/`; không trộn số liệu giữa các đợt.
 
 ## Các tệp để học
 
@@ -182,7 +182,7 @@ Chạy benchmark đầy đủ bằng một lệnh:
 
 Benchmark giữ nguyên workload ở mọi luồng: seed 11/22/33; một warm-up cho mỗi luồng; năm phép đo lặp cho từng cặp seed/luồng; thứ tự luồng được xoay và các tiến trình chạy lần lượt. Mỗi lần đo có thư mục riêng. Script lưu `raw.csv`, `summary.csv`, `metadata.json`, tự gọi kiểm chứng độc lập, rồi dựng bốn hình từ CSV/lịch sử. Mặc định tạo `results/openmp-benchmark-YYYYMMDD-HHMMSS`; có thể chọn vị trí bằng `./scripts/run_openmp.sh benchmark --output-dir results/my-openmp-study`.
 
-Báo cáo thực nghiệm Ubuntu đã chạy: [report.md](results/openmp-benchmark-20261114-094522/report.md). Tệp kết quả nằm dưới `results/` (được `.gitignore` loại khỏi Git), gồm CSV, JSON, tour, lịch sử và hình.
+Báo cáo thực nghiệm Ubuntu đã chạy: [uniform2048](results/uniform2048/report.md), [d15112](results/d15112/report.md) và [Tnm30001](results/Tnm30001/report.md). Các thư mục này giữ CSV, JSON, tour, lịch sử và hình; dữ liệu kết quả được đưa vào Git.
 
 Để kiểm chứng lại hoặc dựng lại hình mà không chạy solver:
 

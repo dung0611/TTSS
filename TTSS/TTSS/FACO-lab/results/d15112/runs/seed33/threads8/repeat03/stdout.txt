@@ -1,1 +1,1 @@
-instance=d15112 seed=33 threads=8 best=1624751 preprocessing=0.93831 initialization=253.573 search=65.1861 total=319.697 s
+instance=d15112 seed=33 threads=8 best=1624751 preprocessing=0.635053 initialization=254.485 search=63.805 total=318.925 s

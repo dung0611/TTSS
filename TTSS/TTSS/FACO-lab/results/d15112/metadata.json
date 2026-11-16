@@ -1,5 +1,5 @@
 {
-  "created_local": "2026-11-14T17:33:12+07:00",
+  "created_local": "2026-11-14T23:25:52+07:00",
   "output_directory": "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/results/d15112",
   "operating_system": {
     "name": "Ubuntu 24.04.5 LTS",
@@ -56,5 +56,20 @@
   "warmups_per_thread_count": 1,
   "measurement_repeats_per_seed_thread": 5,
   "timing_policy": "Sequential executions; one excluded warm-up for each requested thread count; 5 measured repetitions per seed and thread count; run order rotates by repeat and seed.",
-  "speedup_policy": "For each seed, take the median of repeated timings at each requested setting, divide the OpenMP 1-thread median by that paired setting median, then take the median of those per-seed ratios. Efficiency divides by the median actual OpenMP team size; it is not CPU utilization."
+  "speedup_policy": "For each seed, take the median of repeated timings at each requested setting, divide the OpenMP 1-thread median by that paired setting median, then take the median of those per-seed ratios. Efficiency divides by the median actual OpenMP team size; it is not CPU utilization.",
+  "actual_threads_by_requested": {
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "4": [
+      4
+    ],
+    "8": [
+      8
+    ]
+  },
+  "verification": "PASS: independent tour, length, complete-history and matched-workload comparison"
 }

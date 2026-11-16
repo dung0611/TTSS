@@ -1,1 +1,1 @@
-instance=Tnm30001.tsp seed=22 threads=8 best=587617210 preprocessing=1.25943 initialization=0.00725331 search=5.60463 total=6.87131 s
+instance=Tnm30001.tsp seed=22 threads=8 best=566978141 preprocessing=1.29727 initialization=189.427 search=220.242 total=410.966 s
