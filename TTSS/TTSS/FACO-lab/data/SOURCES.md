@@ -1,6 +1,6 @@
 # Nguồn dữ liệu TSP
 
-Hai instance dưới đây được tải ngày 2026-11-14 từ thư mục `instances` của repository FocusedACO:
+Hai instance dưới đây được tải từ thư mục `instances` của repository FocusedACO:
 
 - `d15112.tsp` — `https://github.com/RSkinderowicz/FocusedACO/blob/main/instances/d15112.tsp`
 - `Tnm30001.tsp` — `https://github.com/RSkinderowicz/FocusedACO/blob/main/instances/Tnm30001.tsp`
