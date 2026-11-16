@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Saigon",
+  "os": "Windows 10 22H2 build 19045",
+  "cpu": "Intel Core i7-8700 @ 3.20GHz",
+  "physical_cores": 6,
+  "logical_cpus": 12,
+  "ram_gib": 7.94,
+  "compiler": "GCC 16.2.0 (w64devkit 2.11.0 x64)",
+  "cmake": "4.4.4",
+  "openmp": "5.2 (reported by CMake)",
+  "release_flags": "-O3 -DNDEBUG; -Wall -Wextra -Wpedantic -Wshadow; OpenMP adds -fopenmp",
+  "paper_sha256": "6324ff217dd4fead076c9eae67b840bf7f3875f3a163a310284b3f47bc92590c",
+  "reference_commit": "05b7c1b8d52b27d121b6138222f986fcbf196863"
+}

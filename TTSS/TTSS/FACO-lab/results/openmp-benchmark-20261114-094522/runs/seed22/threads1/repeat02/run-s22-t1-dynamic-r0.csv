@@ -1,0 +1,2 @@
+instance,dimension,ants,iterations,seed,threads,schedule,preprocessing_seconds,initialization_seconds,search_seconds,total_seconds,best_length,reference_length,error_percent
+"uniform2048",2048,128,200,22,1,dynamic,0.076786087000000003,5.1400856389999996,24.470176902999999,29.687048989000001,3314560,,

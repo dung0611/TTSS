@@ -1,0 +1,75 @@
+{
+  "created_local": "2026-11-14T17:25:02+07:00",
+  "output_directory": "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/results/Tnm30001",
+  "operating_system": {
+    "name": "Ubuntu 24.04.5 LTS",
+    "id": "ubuntu",
+    "version": "24.04"
+  },
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+  "cpu": {
+    "physical_cores": 2,
+    "logical_cpus": 4,
+    "processor": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz"
+  },
+  "ram_total_kib": 8021728,
+  "compiler": "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cmake": "cmake version 3.28.3",
+  "cmake_build_type": "Release",
+  "faco_openmp": "ON",
+  "openmp_macro": "#define _OPENMP 201511",
+  "compile_flags": "-O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -Wshadow -fopenmp",
+  "binary": "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/build-omp/faco",
+  "binary_sha256": "9401d1720b26d49b8dbcaf0335b26291ab820d662ba0a74af96beb179e020262",
+  "input": "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab/data/Tnm30001.tsp",
+  "input_sha256": "f19dd50c90d2dff595cddb99dbc7d1c2169a22dd0e67ad0db8fa333aa4c222ca",
+  "threads_requested": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "workload": {
+    "ants": 32,
+    "iterations": 40,
+    "initial_solutions": 1,
+    "schedule": "dynamic",
+    "local_search": false,
+    "candidate_size": 16,
+    "backup_size": 64,
+    "min_new_edges": 8,
+    "ls_size": 20,
+    "rho": 0.5,
+    "beta": 1.0,
+    "p_best": 0.1,
+    "global_best_probability": 0.01,
+    "bounds": "paper",
+    "verify": false,
+    "log_every": 0,
+    "profile": false
+  },
+  "warmups_per_thread_count": 1,
+  "measurement_repeats_per_seed_thread": 3,
+  "timing_policy": "Sequential executions; one excluded warm-up for each requested thread count; 5 measured repetitions per seed and thread count; run order rotates by repeat and seed.",
+  "speedup_policy": "For each seed, take the median of repeated timings at each requested setting, divide the OpenMP 1-thread median by that paired setting median, then take the median of those per-seed ratios. Efficiency divides by the median actual OpenMP team size; it is not CPU utilization.",
+  "actual_threads_by_requested": {
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "4": [
+      4
+    ],
+    "8": [
+      8
+    ]
+  },
+  "verification": "PASS: independent tour, length, complete-history and matched-workload comparison"
+}

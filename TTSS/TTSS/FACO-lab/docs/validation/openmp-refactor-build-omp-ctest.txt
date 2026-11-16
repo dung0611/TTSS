@@ -1,0 +1,69 @@
+Start testing: Nov 10 19:46 SE Asia Standard Time
+----------------------------------------------------------
+1/3 Testing: faco_mechanisms
+1/3 Test: faco_mechanisms
+Command: "D:/TTSS/FACO-lab/build-omp/faco_tests.exe"
+Directory: D:/TTSS/FACO-lab/build-omp
+"faco_mechanisms" start time: Nov 10 19:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+PASS parser/EUC_2D
+PASS tours/exhaustive reference
+PASS k-d tree vs brute force
+PASS FACO copying
+PASS selection fallback
+PASS 2-opt/3-opt
+PASS pheromone/formulas
+PASS solver/RNG
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"faco_mechanisms" end time: Nov 10 19:46 SE Asia Standard Time
+"faco_mechanisms" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: cli_help
+2/3 Test: cli_help
+Command: "D:/TTSS/FACO-lab/build-omp/faco.exe" "--help"
+Directory: D:/TTSS/FACO-lab/build-omp
+"cli_help" start time: Nov 10 19:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+FACO C++17 / OpenMP (EUC_2D symmetric TSP)
+--input FILE --output-dir DIR [results]
+--ants N [0=paper auto] --iterations N [5000] --threads N [1]
+--seed N [1; zero is a reproducible seed] --repeat N [1; seeds seed+r]
+--rho R [0.5 retained fraction] --beta B [1] --p-best P [0.1]
+--candidate-size N [16] --backup-size N [64] --min-new-edges N [8]
+--local-search on|off [on] --ls-size N [20] --initial-solutions N [0=hardware threads]
+--schedule static|dynamic [dynamic] --bounds paper|reference [paper]
+--gbest-probability P [0.01] --verify on|off [off]
+--log-every N [4; 0 disables progress; also prints initial/final iteration]
+--profile on|off [off; phase timings and per-thread ant workload]
+--reference-length L --reference-source TEXT --reference-date YYYY-MM-DD
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"cli_help" end time: Nov 10 19:46 SE Asia Standard Time
+"cli_help" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: cli_reject_unknown
+3/3 Test: cli_reject_unknown
+Command: "D:/TTSS/FACO-lab/build-omp/faco.exe" "--unknown" "1"
+Directory: D:/TTSS/FACO-lab/build-omp
+"cli_reject_unknown" start time: Nov 10 19:46 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Error: Unknown option: --unknown
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cli_reject_unknown" end time: Nov 10 19:46 SE Asia Standard Time
+"cli_reject_unknown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 10 19:46 SE Asia Standard Time

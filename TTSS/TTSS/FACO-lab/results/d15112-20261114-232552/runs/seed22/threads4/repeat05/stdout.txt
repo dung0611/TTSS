@@ -1,0 +1,1 @@
+instance=d15112 seed=22 threads=4 best=1619933 preprocessing=0.869694 initialization=243.727 search=61.24 total=305.837 s

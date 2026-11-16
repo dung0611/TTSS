@@ -1,0 +1,22 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}/build-omp",
+    "cmake.cmakePath": "D:/TTSS/tools/cmake/bin/cmake.exe",
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureSettings": {
+        "CMAKE_CXX_COMPILER": "D:/TTSS/tools/w64devkit/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "D:/TTSS/tools/w64devkit/bin/make.exe",
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true,
+        "FACO_OPENMP": true
+    },
+    "cmake.environment": {
+        "PATH": "D:\\TTSS\\tools\\w64devkit\\bin;${env:PATH}"
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "D:\\TTSS\\tools\\w64devkit\\bin;D:\\TTSS\\tools\\cmake\\bin;${env:PATH}"
+    },
+    "files.associations": {
+        "*.tsp": "plaintext"
+    }
+}

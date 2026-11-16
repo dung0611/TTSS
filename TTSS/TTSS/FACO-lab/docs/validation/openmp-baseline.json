@@ -1,0 +1,12 @@
+{
+  "binary": "D:\\TTSS\\tools\\faco-before-persistent.exe",
+  "binary_sha256": "05cdff5b92a724bd88740a629cd6c414221cd0ed2f49592368ac1fc53caa7603",
+  "source_sha256": {
+    "src/faco.cpp": "c92a136e2b321f8cbbde9f7173d515cf758461d5daa529eb7f15ed3a7cc81fb0",
+    "src/main.cpp": "b365653cc84c69ff9f8f0294ffea536faf297674d06de281021cae1c32bd8712",
+    "include/faco/faco.hpp": "8a283c1d091c531acee0fbb035dc3e87b93002631d830ab4c6776f21427e4db6"
+  },
+  "description": "Before persistent OpenMP region; three parallel-for regions per iteration; log-every=0 used for timing",
+  "source_archive": "D:\\TTSS\\tools\\FACO-before-persistent.zip",
+  "source_archive_sha256": "89b195d44da61973db04b2fba4442136a0f66faa769744898d6eb2ff21b2bb3e"
+}

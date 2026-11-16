@@ -1,0 +1,74 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "FACO: Configure",
+            "type": "process",
+            "command": "D:/TTSS/tools/cmake/bin/cmake.exe",
+            "args": [
+                "-S",
+                "${workspaceFolder}/FACO-lab",
+                "-B",
+                "${workspaceFolder}/FACO-lab/build-omp",
+                "-G",
+                "MinGW Makefiles",
+                "-DCMAKE_CXX_COMPILER=D:/TTSS/tools/w64devkit/bin/g++.exe",
+                "-DCMAKE_MAKE_PROGRAM=D:/TTSS/tools/w64devkit/bin/make.exe",
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+                "-DFACO_OPENMP=ON"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/FACO-lab",
+                "env": {
+                    "PATH": "D:\\TTSS\\tools\\w64devkit\\bin;D:\\TTSS\\tools\\cmake\\bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "FACO: Build",
+            "type": "process",
+            "command": "D:/TTSS/tools/cmake/bin/cmake.exe",
+            "args": [
+                "--build",
+                "${workspaceFolder}/FACO-lab/build-omp",
+                "-j",
+                "4"
+            ],
+            "dependsOn": "FACO: Configure",
+            "dependsOrder": "sequence",
+            "options": {
+                "cwd": "${workspaceFolder}/FACO-lab",
+                "env": {
+                    "PATH": "D:\\TTSS\\tools\\w64devkit\\bin;D:\\TTSS\\tools\\cmake\\bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "FACO: Test",
+            "type": "process",
+            "command": "D:/TTSS/tools/cmake/bin/ctest.exe",
+            "args": [
+                "--test-dir",
+                "${workspaceFolder}/FACO-lab/build-omp",
+                "--output-on-failure"
+            ],
+            "dependsOn": "FACO: Build",
+            "options": {
+                "cwd": "${workspaceFolder}/FACO-lab",
+                "env": {
+                    "PATH": "D:\\TTSS\\tools\\w64devkit\\bin;D:\\TTSS\\tools\\cmake\\bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        }
+    ]
+}

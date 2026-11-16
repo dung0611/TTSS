@@ -1,0 +1,20 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Win32",
+            "compilerPath": "D:/TTSS/tools/w64devkit/bin/g++.exe",
+            "compilerArgs": [
+                "-fopenmp"
+            ],
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compileCommands": "${workspaceFolder}/build-omp/compile_commands.json"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+instance=uniform2048 seed=22 threads=4 best=3314560 preprocessing=0.0757941 initialization=5.06956 search=10.3522 total=15.4976 s

@@ -1,0 +1,10 @@
+.aws/
+.codex/
+.agents/
+**/node_modules/
+**/build*/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example

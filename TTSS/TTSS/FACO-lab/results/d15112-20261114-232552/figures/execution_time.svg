@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<rect width="100%" height="100%" fill="white"/>
+<text x="-500" y="-490" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="400" fill="#222222">openmp benchmark</text>
+<rect x="0" y="0" width="1600" height="1100" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="800.0" y="76" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="700" fill="#222222">Thời gian chạy theo số luồng</text>
+<text x="800.0" y="113" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#555555">Trung vị của 15 phép đo; thanh sai số là Q1–Q3 trên 3 seed và 5 lần lặp</text>
+<text x="180" y="148" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#222222">Thời gian (giây)</text>
+<text x="820.0" y="997" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#222222">Số luồng yêu cầu (số thực tế ghi dưới nhãn nếu khác)</text>
+<polyline points="180,875.0 1460,875.0" fill="none" stroke="#d9dfe5" stroke-width="1"/>
+<text x="162" y="879.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#555555">0</text>
+<polyline points="180,731.0 1460,731.0" fill="none" stroke="#d9dfe5" stroke-width="1"/>
+<text x="162" y="735.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#555555">95.8</text>
+<polyline points="180,587.0 1460,587.0" fill="none" stroke="#d9dfe5" stroke-width="1"/>
+<text x="162" y="591.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#555555">191.6</text>
+<polyline points="180,443.0 1460,443.0" fill="none" stroke="#d9dfe5" stroke-width="1"/>
+<text x="162" y="447.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#555555">287.4</text>
+<polyline points="180,299.0 1460,299.0" fill="none" stroke="#d9dfe5" stroke-width="1"/>
+<text x="162" y="303.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#555555">383.2</text>
+<polyline points="180,155.0 1460,155.0" fill="none" stroke="#d9dfe5" stroke-width="1"/>
+<text x="162" y="159.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#555555">479</text>
+<polyline points="180,155 180,875 1460,875" fill="none" stroke="#333333" stroke-width="2"/>
+<polyline points="180.0,875 180.0,883" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="180.0" y="911" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">1</text>
+<polyline points="606.6666666666667,875 606.6666666666667,883" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="606.6666666666667" y="911" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">2</text>
+<polyline points="1033.3333333333335,875 1033.3333333333335,883" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1033.3333333333335" y="911" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">4</text>
+<polyline points="1460.0,875 1460.0,883" fill="none" stroke="#333333" stroke-width="2"/>
+<text x="1460.0" y="911" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">8</text>
+<polyline points="162.0,643.3615323673487 162.0,634.87519976" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="154.0,643.3615323673487 170.0,643.3615323673487" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="154.0,634.87519976 170.0,634.87519976" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="588.6666666666667,751.0490923468893 588.6666666666667,747.5128006427558" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="580.6666666666667,751.0490923468893 596.6666666666667,751.0490923468893" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="580.6666666666667,747.5128006427558 596.6666666666667,747.5128006427558" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="1015.3333333333335,783.6275952835073 1015.3333333333335,780.3632879196659" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="1007.3333333333335,783.6275952835073 1023.3333333333335,783.6275952835073" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="1007.3333333333335,780.3632879196659 1023.3333333333335,780.3632879196659" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="1442.0,784.4605868511064 1442.0,780.6299179025469" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="1434.0,784.4605868511064 1450.0,784.4605868511064" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="1434.0,780.6299179025469 1450.0,780.6299179025469" fill="none" stroke="#1769aa" stroke-width="3"/>
+<polyline points="162.0,642.767231896618 588.6666666666667,749.9485935049687 1015.3333333333335,781.1347872093528 1442.0,783.3448067502296" fill="none" stroke="#1769aa" stroke-width="4"/>
+<circle cx="162.0" cy="642.767231896618" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<circle cx="588.6666666666667" cy="749.9485935049687" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<circle cx="1015.3333333333335" cy="781.1347872093528" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<circle cx="1442.0" cy="783.3448067502296" r="8" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<polyline points="198.0,275.49650977411284 198.0,240.84144118830898" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="190.0,275.49650977411284 206.0,275.49650977411284" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="190.0,240.84144118830898 206.0,240.84144118830898" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="624.6666666666667,382.3478656076826 624.6666666666667,348.9227708551149" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="616.6666666666667,382.3478656076826 632.6666666666667,382.3478656076826" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="616.6666666666667,348.9227708551149 632.6666666666667,348.9227708551149" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="1051.3333333333335,413.5509090647181 1051.3333333333335,381.79607554906056" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="1043.3333333333335,413.5509090647181 1059.3333333333335,413.5509090647181" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="1043.3333333333335,381.79607554906056 1059.3333333333335,381.79607554906056" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="1478.0,407.254771719666 1478.0,382.315774914572" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="1470.0,407.254771719666 1486.0,407.254771719666" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="1470.0,382.315774914572 1486.0,382.315774914572" fill="none" stroke="#d1495b" stroke-width="3"/>
+<polyline points="198.0,252.06006781962424 624.6666666666667,365.8332677885595 1051.3333333333335,399.30232924793324 1478.0,395.6130969768685" fill="none" stroke="#d1495b" stroke-width="4"/>
+<circle cx="198.0" cy="252.06006781962424" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<circle cx="624.6666666666667" cy="365.8332677885595" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<circle cx="1051.3333333333335" cy="399.30232924793324" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<circle cx="1478.0" cy="395.6130969768685" r="8" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<polyline points="220,1052 262,1052" fill="none" stroke="#1769aa" stroke-width="4"/>
+<circle cx="241" cy="1052" r="7" fill="#1769aa" stroke="#1769aa" stroke-width="2"/>
+<text x="272" y="1058" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">Tìm kiếm</text>
+<polyline points="416,1052 458,1052" fill="none" stroke="#d1495b" stroke-width="4"/>
+<circle cx="437" cy="1052" r="7" fill="#d1495b" stroke="#d1495b" stroke-width="2"/>
+<text x="468" y="1058" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#222222">Toàn chương trình</text>
+</svg>
