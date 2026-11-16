@@ -8,4 +8,3 @@
 
 Mỗi thư mục benchmark có `raw.csv`, `summary.csv`, `metadata.json`, thư mục `runs/` giữ kết quả từng lần chạy, và `figures/` gồm bốn biểu đồ PNG/SVG. `openmp-study-20261110/` được giữ lại vì là dữ liệu đối chiếu chiến lược OpenMP được trích dẫn trong `docs/openmp_study.md`.
 
-`archive/Tnm30001/` và `archive/d15112/` giữ nguyên dữ liệu cũ trước khi chuẩn hóa tên, không phải các đợt benchmark chính trong bảng. Thư mục cũ `archive/d15112/` không có báo cáo hoặc bảng tổng hợp; không coi là benchmark hoàn chỉnh.
