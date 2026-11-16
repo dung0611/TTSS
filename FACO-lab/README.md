@@ -4,6 +4,12 @@ Dự án C++17 tự triển khai Focused Ant Colony Optimization để giải TS
 
 Đã đọc bài *Improving Ant Colony Optimization Efficiency for Solving Large TSP Instances*, R. Skinderowicz, DOI [10.1016/j.asoc.2022.108653](https://doi.org/10.1016/j.asoc.2022.108653), bản đính kèm 28 trang, và [FocusedACO tại commit 05b7c1b8d52b27d121b6138222f986fcbf196863](https://github.com/RSkinderowicz/FocusedACO/tree/05b7c1b8d52b27d121b6138222f986fcbf196863). Đây là triển khai phục vụ học tập có những lựa chọn khác mã tác giả; xem [bảng đối chiếu](docs/paper_mapping.md). Không phải bản tái hiện thực nghiệm của bài báo.
 
+## Vị trí trong repository
+
+`FACO-lab/`, `tools/`, `package.json` và cấu hình `.vscode/` nằm trực tiếp ở gốc repo `TTSS`, không còn hai lớp thư mục `TTSS/TTSS/`. Mở gốc repo trong VS Code; các lệnh bên dưới chạy từ `FACO-lab/` (`cd FACO-lab` nếu đang ở gốc repo).
+
+Các đường dẫn tuyệt đối trong dữ liệu benchmark/validation cũ được giữ làm bằng chứng vị trí lúc đo, không phải đường dẫn cần dùng sau khi di chuyển. Không dùng lại CMake cache ở đường dẫn cũ; hãy configure lại trong thư mục build mới hoặc dùng `cmake --fresh` nếu có CMake >=3.24.
+
 ## Xây dựng trên Ubuntu
 
 Yêu cầu GCC hỗ trợ C++17/OpenMP, CMake >=3.16 và Python 3; cài thêm Pillow (`python3-pil`) để dựng biểu đồ.
@@ -21,7 +27,7 @@ cmake --build build-omp -j
 ctest --test-dir build-omp --output-on-failure
 ```
 
-Môi trường thực hiện lần này là Windows 10, GCC 16.2.0 portable; cả hai cấu hình đã được biên dịch/chạy tại đó. Chưa chạy trực tiếp trên Ubuntu. CMake và mã không phụ thuộc API Windows; cần xác nhận lại trên máy Ubuntu đích. Lệnh Windows tương đương thêm `.exe` vào tên chương trình; dùng generator phù hợp bộ công cụ của bạn.
+Bản Windows ban đầu dùng GCC 16.2.0 portable và đã biên dịch cả hai cấu hình. Sau khi rút gọn đường dẫn repository, bản OpenMP Release đã được configure/build lại trên Ubuntu với GCC 13.3.0 và đạt 3/3 CTest. Bản tuần tự chưa được kiểm tra lại trong lần di chuyển này. Lệnh Windows tương đương thêm `.exe` vào tên chương trình; dùng generator phù hợp bộ công cụ của bạn.
 
 Gói bàn giao có hai executable Windows x64 đã biên dịch trong `bin/windows/`. Sau khi giải nén, có thể chạy ngay từ thư mục gốc bằng PowerShell:
 

@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "/home/ptdung/Documents/TTSS/TTSS/TTSS/FACO-lab"
+    "cmake.sourceDirectory": "${workspaceFolder}/FACO-lab",
+    "files.associations": {
+        "**/FACO-lab/**/*.tsp": "plaintext"
+    }
 }
