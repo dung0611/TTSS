@@ -214,7 +214,7 @@ Chọn số luồng hoặc chế độ benchmark, gọi binary OpenMP với inst
 
 - `data/square4.tsp`: instance hình vuông nhỏ để kiểm tra.
 - `data/uniform2048.tsp`: tọa độ phân bố đều dùng trong thí nghiệm; có thể tái tạo bằng `generate_data.py`.
-- `data/d15112.tsp` và `data/Tnm3001.tsp1`: instance với kích cỡ lớn để kiểm chứng khả năng mở rộng.
+- `data/d15112.tsp` và `data/Tnm3001.tsp`: instance với kích cỡ lớn để kiểm chứng khả năng mở rộng.
 - `tests/tests.cpp`: `rejects` kiểm tra trường hợp phải báo lỗi; `square` và `random_problem` tạo fixture. Các nhóm `parser`, `tours`, `neighbors`, `copying`, `selection`, `local_search`, `pheromone`, `solver` kiểm tra từng thành phần. `check_profile` xác minh profile; `main` gọi các nhóm và tổng hợp trạng thái.
 - `docs/algorithm.md`: quy trình, công thức, ví dụ và độ phức tạp.
 - `docs/parallel.md`: dữ liệu chia sẻ/riêng, barrier và OpenMP profile.
