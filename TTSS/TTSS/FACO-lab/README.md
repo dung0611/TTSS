@@ -94,6 +94,7 @@ Kết quả benchmark OpenMP đủ 1/2/4/8 luồng cho ba instance được lưu
 
 ## Các tệp để học
 
+- [Bài báo tham khảo](docs/references.md): thông tin trích dẫn FACO, arXiv, DOI, bản PDF và điều kiện sử dụng.
 - [algorithm.md](docs/algorithm.md): từng bước, công thức, bộ nhớ và ví dụ 6 đỉnh.
 - [parallel.md](docs/parallel.md): shared/private, barrier, RNG và giới hạn speedup.
 - [paper_mapping.md](docs/paper_mapping.md): ánh xạ mục/hình và khác biệt với GitHub.

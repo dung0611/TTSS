@@ -1,6 +1,6 @@
 # Đối chiếu bài báo và mã tham khảo
 
-Nguồn ưu tiên là manuscript 28 trang do người dùng cung cấp, tiêu đề thực tế *Improving Ant Colony Optimization Efficiency for Solving Large TSP Instances*. Số trang dưới đây là số trang in trong manuscript. Đã xem trực quan trang 11 (Hình 2), 13 (cận), 14 (Hình 3/lịch OpenMP), 20 (số kiến) để tránh lỗi trích công thức từ PDF.
+Nguồn ưu tiên là [manuscript PDF](FACO-Skinderowicz-2022.pdf) 28 trang do người dùng cung cấp, tiêu đề thực tế *Improving Ant Colony Optimization Efficiency for Solving Large TSP Instances*. Xem [bài báo tham khảo](references.md) để lấy liên kết arXiv, DOI, trích dẫn và giấy phép. Số trang dưới đây là số trang in trong manuscript. Đã xem trực quan trang 11 (Hình 2), 13 (cận), 14 (Hình 3/lịch OpenMP), 20 (số kiến) để tránh lỗi trích công thức từ PDF.
 
 Mã đối chiếu cố định tại [commit 05b7c1b8d52b27d121b6138222f986fcbf196863](https://github.com/RSkinderowicz/FocusedACO/tree/05b7c1b8d52b27d121b6138222f986fcbf196863), ngày đọc 2026-11-10. Không mặc định mã và bài báo giống nhau.
 

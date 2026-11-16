@@ -1,6 +1,6 @@
 # Ghi nhận nguồn
 
-Thuật toán: Rafał Skinderowicz, *Improving Ant Colony Optimization Efficiency for Solving Large TSP Instances*, Applied Soft Computing (2022), 108653, DOI https://doi.org/10.1016/j.asoc.2022.108653. Bản manuscript được người dùng cung cấp có ghi CC-BY-NC-ND 4.0. Không sửa, tái xuất hoặc đóng gói lại bài báo vào dự án.
+Thuật toán: Rafał Skinderowicz, *Improving Ant Colony Optimization Efficiency for Solving Large TSP Instances*, Applied Soft Computing (2022), 108653, DOI https://doi.org/10.1016/j.asoc.2022.108653. Bản manuscript do người dùng cung cấp được lưu nguyên vẹn tại [docs/FACO-Skinderowicz-2022.pdf](docs/FACO-Skinderowicz-2022.pdf), © 2022 Rafał Skinderowicz, theo giấy phép [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Không chỉnh sửa PDF; việc chia sẻ phải giữ ghi nhận nguồn, không thương mại và tuân thủ điều kiện không phân phối bản phái sinh. Xem [bài báo tham khảo](docs/references.md) để biết nguồn và cách trích dẫn.
 
 Mã tham khảo: https://github.com/RSkinderowicz/FocusedACO tại commit `05b7c1b8d52b27d121b6138222f986fcbf196863`, kiểm tra ngày 2026-11-10 (Asia/Saigon). Đã xem README, Makefile, faco.cpp, ant.h, pheromone.h, problem_instance.h/.cpp, local_search.h/.cpp, kd_tree.h, progargs.h/.cpp, rand.h/.cpp, logging.h, utils.h/.cpp, best-known.json và instances/readme.md.
 
