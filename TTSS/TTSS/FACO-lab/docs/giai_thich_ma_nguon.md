@@ -4,7 +4,7 @@ Tài liệu này mô tả mã nguồn hiện có trong `FACO-lab`, tập trung v
 
 ## 1. Dự án làm gì?
 
-FACO-lab là chương trình C++17 dùng Focused Ant Colony Optimization (FACO) để tìm tour ngắn cho bài toán người du lịch (TSP) đối xứng trên tọa độ 2D. Chương trình đọc TSPLIB `TSP/EUC_2D`, tạo tour ban đầu, cải thiện bằng local search, lặp cập nhật pheromone và ghi kết quả. Đây là thuật toán heuristic, không cam kết nghiệm tối ưu.
+FACO-lab là chương trình C++17 dùng Focused Ant Colony Optimization (FACO) kết hợp với OpenMP để tìm tour ngắn cho bài toán người du lịch (TSP) đối xứng trên tọa độ 2D. Chương trình đọc TSPLIB `TSP/EUC_2D`, tạo tour ban đầu, cải thiện bằng local search, lặp cập nhật pheromone và ghi kết quả. Đây là thuật toán heuristic, không cam kết nghiệm tối ưu.
 
 Luồng chính: `src/main.cpp` → `options.cpp` → `problem.cpp` → `solve()` trong `faco.cpp` → `output.cpp`. Các thành phần `neighbors`, `tour`, `pheromone`, `local_search` được solver sử dụng.
 
