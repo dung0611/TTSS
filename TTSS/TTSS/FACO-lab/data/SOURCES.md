@@ -1,6 +1,6 @@
 # Nguồn dữ liệu TSP
 
-Hai instance dưới đây được tải từ thư mục `instances` của repository FocusedACO:
+Các instance dưới đây được tạo riêng cho thử nghiệm hoặc tải từ thư mục `instances` của repository FocusedACO:
 - `uniform2048.tsp` và `square4.tsp` — do nhóm tự sinh
 - `d15112.tsp` — `[https://github.com/RSkinderowicz/FocusedACO/blob/main/instances/d15112.tsp](https://github.com/mastqe/tsplib/blob/master/d15112.tsp)`
 - `Tnm30001.tsp` — `https://github.com/RSkinderowicz/FocusedACO/blob/main/instances/Tnm30001.tsp`
