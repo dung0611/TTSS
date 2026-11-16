@@ -104,7 +104,7 @@ Kết quả benchmark OpenMP đủ 1/2/4/8 luồng cho ba instance được lưu
 - `docs/giai_thich_ma_nguon.md`: giải thích các file và hàm/lớp chính trong dự án.
 - `scripts/benchmark.py`: chạy các cấu hình có công việc cố định, lưu số thô và tổng hợp theo seed.
 
-Hạn chế: chưa kiểm chứng hiệu quả 100k-200k đỉnh; khởi tạo tuần tự và 3-opt có giới hạn; không dùng tối ưu SIMD, pool vùng nhớ hoặc cấu trúc tour nhiều tầng. Xem [NOTICE](NOTICE.md) về nguồn và điều kiện tái sử dụng.
+Hạn chế: chưa kiểm chứng hiệu quả 100k-200k đỉnh; khởi tạo tuần tự và 3-opt có giới hạn; không dùng tối ưu SIMD, pool vùng nhớ hoặc cấu trúc tour nhiều tầng. Xem [bài báo tham khảo](docs/references.md) về nguồn và điều kiện sử dụng manuscript.
 
 ## VS Code trên máy Windows hiện tại
 
