@@ -145,7 +145,7 @@ Chạy lại cùng tiền tố trong cùng thư mục sẽ **ghi đè**; dùng t
 | Instance trong `FACO-lab/data/` | Số đỉnh | Vai trò và nguồn |
 |---|---:|---|
 | [square4.tsp](FACO-lab/data/square4.tsp) | 4 | Ca kiểm thử tự sinh, tối ưu 40 |
-| [uniform2048.tsp](FACO-lab/data/uniform2048.tsp) | 2.048 | Dữ liệu tổng hợp bằng script, seed 2026; chưa biết tối ưu; [báo cáo](FACO-lab/results/uniform2048/report.md) |
+| [uniform2048.tsp](FACO-lab/data/uniform2048.tsp) | 2.048 | Dữ liệu tổng hợp bằng script, seed 2026; [báo cáo](FACO-lab/results/uniform2048/report.md) |
 | [d15112.tsp](FACO-lab/data/d15112.tsp) | 15.112 | Lấy từ bộ instance FocusedACO; [báo cáo](FACO-lab/results/d15112/report.md) |
 | [Tnm30001.tsp](FACO-lab/data/Tnm30001.tsp) | 30.001 | Lấy từ bộ instance FocusedACO; [báo cáo](FACO-lab/results/Tnm30001/report.md) |
 
